@@ -1,0 +1,54 @@
+#jumbo1
+{
+    background-image: url("../images/pennstation4.jpg");
+        background-size: cover;
+        background-color: #9e9e9e;
+        color: black;
+        font-weight: bolder;
+        opacity: 0.6;
+}
+#header1
+{
+    background-color: #667292;
+    color: #f1e3dd;
+}
+
+.headercolor
+{
+    background-color: #667292;
+    background-size: cover;
+    color: #f1e3dd;
+}
+
+.pagecolor
+{
+    background-color: #bccad6;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+}
+.button1
+{
+    background-color: #8d9db6;
+    color: white;
+}
+
+.hideDiv
+{
+    display:none;
+}
+
+.tours-title
+{
+   text-align: center;
+}
+
+#btnclick
+{
+    position:relative;
+}
+
+.hidePixDivs
+{
+    display:none;
+}

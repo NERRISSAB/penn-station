@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>G.Penn Station Project:Gallery</title>
+
+  <!-- Bootstrap core CSS -->
+  <!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="pagecolor">
+
+
+  <nav class="navbar navbar-default headercolor header1">
+    <nav class="navbar-fixed-top"></nav>
+    <div class="navbar-header">
+      <a class="navbar-brand" id="header1">PENNSYLVANIA STATION</a>
+
+      <button type="button" class="navbar-toggle headercolor" data-toggle="collapse" data-target="#myNavbar">Menu</button>
+    </div>
+
+    <div class="collapse navbar-collapse headercolor" id="myNavbar">
+
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" id="header1">Home</a></li>
+        <li class="active"><a href="gallery.html">Then & Now</a></li>
+        <li><a href="gallery2.html" id="header1">Gallery</a></li>
+        <li><a href="form.html" id="header1">Info</a></li>
+      </ul>
+    </div>
+
+    <!-- navbar collapse -->
+  </nav>
+  <div class="container">
+    <!-- PUT ALL VISIBLE COMPONENTS HERE-->
+
+<!--this is the heading for the Penn Station Then and Now page-->
+    <div class="row tours-title">
+      <div class="col-md-12 col-sm-12">
+      <h3>PENNSYLVANIA STATION THEN AND NOW</h3>
+      <h5>CHOOSE A VIEW, SEE HOW PENN STATION HAS CHANGED</h5>
+      
+       <!--Dropdown box-->
+      <select class="selectPix">
+        <option value="0">Penn Station Architect Drawings</option>
+        <option value="1">Penn Station Main entrance</option>
+        <option value="2">Penn Station Aerial View</option>
+        <option value="3">Penn Station Waiting Room</option>
+      </select>
+      
+      <button id="submitChoice">ENTER</button>
+
+      </div>
+    </div>
+<br>
+
+<!--this div will appear when the tour page is opened-->
+      <div class="pixStart" id="pixStart1">
+          <div class="row guide1">
+            <div class="col-md-12 col-sm-12">
+              <img class="img-responsive img-rounded center-block" src="images/pennstation30.jpg">
+            </div>
+          </div>
+        </div>
+<!--This ends the opening display code block-->
+
+
+  <div class="mainEntrance hidePixDivs" id="mainEntrance1">
+      <div class="row" id="gallery1">
+        <div class="col col-xs-6">
+          <h4>PENN STATION - MAIN ENTRANCE, 1910</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstation3.jpg">
+            <p>Penn Station's main entrance at 32nd 
+              Street and 7th Avenue, under construction</p>
+        </div>      
+        <div class="col col-xs-6">
+          <h4>PENN STATION - MAIN ENTRANCE, TODAY</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstationtoday.jpg">
+            <p>Penn Station's main entrance at 
+              Street at 7th Avenue</p>
+        </div>
+      </div>
+     </div>
+  
+  
+      <br>
+
+ <div class="aerialView hidePixDivs" id="aerialView1">
+      <div class="row" id="gallery1">
+        <div class="col col-xs-6">
+          <h4>PENN STATION-AERIAL VIEW, DATE UNKNOWN</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstation27.jpg">
+            <p>Penn Station from above, looking southeast
+            from the northeastern side of the building.</p>
+        </div>      
+        <div class="col col-xs-6">
+          <h4>PENN STATION-AERIAL VIEW, TODAY</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstationtoday2.jpg">
+            <p>Penn Plaza from above, looking southeast
+            from the northeastern side of the developement.</p>
+        </div>      
+        </div>
+      </div>
+  
+  
+
+   <div class="waitingRoom hidePixDivs" id="waitingRoom1">
+      <div class="row" id="gallery1">
+        <div class="col col-xs-6">
+          <h4>PENN STATION-WAITING ROOM, 1910</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstation13.jpg">
+            <p></p>
+        </div>      
+        <div class="col col-xs-6">
+          <h4>PENN STATION-WAITING ROOM, TODAY</h4>
+            <img class="img-responsive img-rounded center-block" 
+              src="images/pennstationwaitingroomtoday2.jpg">
+            <p></p>
+        </div>      
+      </div>
+    </div>
+    
+   
+   
+
+   
+    <br>
+    
+    
+    
+   
+    <hr>
+
+    <footer>
+      <p>&copy;Bramble 2016</p>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+ 
+ <!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+
+<!-- bxSlider CSS file -->
+<link href="/css/jquery.bxslider.css" rel="stylesheet" />
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+<script src="js/jspenn.js"></script>
+</body>
